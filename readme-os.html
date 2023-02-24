@@ -1,0 +1,41 @@
+<h1 id="peneos">PeneOS</h1>
+<p>Welcome to PeneOS, an operating system made as a joke originally, but somehow evolved into this monstorosity of an
+  operating system.
+  It&#39;s not supposed to replace Linux, BUT IT CAN RUN DOOM!</p>
+<hr>
+<h2 id="features">Features</h2>
+<ul>
+  <li>Modern x86 64-bit kernel with multi-threading</li>
+  <li>Browser with JavaScript, WebAssembly, and more</li>
+  <li>Security features (hardware protections, limited userland capabilities, W^X memory, <code>pledge</code> &amp;
+    <code>unveil</code>, (K)ASLR, OOM-resistance, web-content isolation, state-of-the-art TLS algorithms, ...)</li>
+  <li>System Services (WindowServer, LoginServer, AudioServer, WebServer, RequestServer, CrashServer, ...) and IPC</li>
+  <li>Good POSIX compatibility (LibC, Shell, syscalls, signals, pseudoterminals, filesystem notifications, standard Unix
+    utilities, ...)</li>
+  <li>POSIX-like virtual file systems (/proc, /dev, /sys, /tmp, ...) and ext2 file system</li>
+  <li>Network stack and applications with support for IPv4, TCP, UDP; DNS, HTTP, Gemini, IMAP, NTP</li>
+  <li>Profiling, debugging and other development tools (Kernel-supported profiling, detailed program analysis with
+    software emulation in UserspaceEmulator, CrashReporter, interactive GUI playground, HexEditor, HackStudio IDE for
+    C++ and more)</li>
+  <li>Libraries for everything from cryptography to OpenGL, audio, JavaScript, GUI, playing chess, ...</li>
+  <li>Support for many common and uncommon file formats (PNG, JPEG, GIF, MP3, WAV, FLAC, ZIP, TAR, PDF, QOI, Gemini,
+    ...)</li>
+  <li>Unified style and design philosophy, flexible theming system, custom fonts.</li>
+  <li>Games (<strong><em>DOOM!!!!!</em></strong>, Solitaire, Minesweeper, 2048, chess, Conway&#39;s Game of Life, ...)
+    and Demos (CatDog, Starfield, Eyes, mandelbrot set, WidgetGallery, ...)</li>
+  <li>Every-day GUI programs and utilities (Spreadsheet with JavaScript, TextEditor, Terminal, PixelPaint, various
+    multimedia viewers and players, Mail, Assistant, Calculator, ...)</li>
+</ul>
+<p>Additionally, there are a lot of ports, including games, compilers, Unix tools, multimedia apps and more.</p>
+<h2 id="compiling">Compiling</h2>
+<p>Please read the compilation guide at <a
+    href="https://github.com/sinjs/peneOS/blob/master/Meta/Build.md">Meta/Build.md</a></p>
+<h2 id="reading-the-documentation">Reading the documentation</h2>
+<p>Man pages are available online at <a href="https://man.peneos.ga">man.peneos.ga</a>. These pages are generated from
+  the Markdown source files in <code>Base/usr/share/man</code> and updated automatically.</p>
+<p>You can use <code>man</code> for the terminal interface, or <code>help</code> for the GUI.</p>
+<h2 id="license">License</h2>
+<p>The kernel is proprietary. However, the rest of the code is licensed under the <a
+    href="https://opensource.org/licenses/BSD-2-Clause"><code>BSD-2-Clause</code></a> license.
+  I&#39;ve taken huge inspiration, and some code from the Linux kernel, KolibriOS, ReactOS, HelenOS and SerenityOS. Of
+  course the UI is based on Windows 95 :^)</p>
